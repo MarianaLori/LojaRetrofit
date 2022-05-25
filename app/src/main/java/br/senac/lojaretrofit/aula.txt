@@ -1,0 +1,17 @@
+RETROFIT
+
+Um framework para chamadas REST
+
+Como começar a usar?
+- botão direito em app > open module settings > dependencies > add + > retrofit e converter gson
+
+classe de modelo - data
+classe de serviço - interface
+
+Função com callback precisa informar que precisa dessa chamada e o tipo da informaçao que vai voltar, então
+    fun nomeDaFuncao(): Call<Tipo> (esse Call é a função do retrof it)
+
+
+    Para pegar dados da internet, precisa inserir a permissão no Manifest e setar no build.gradle a versão do Java
+
+    Para ouxar imagens, precisa inserir a biblioteca Picasso no Manifest
